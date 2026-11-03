@@ -44,5 +44,3 @@ Cancelled journeys are excluded from delay and punctuality averages.
 ## Limitations
 Synthetic data does not represent actual Dublin transport performance. Passenger counts are trip-level simulated totals, not stop-level observed boardings. Coordinates are approximate and included only to demonstrate mapping. The analysis identifies patterns and does not prove causation.
 
-## Interview summary
-"I built a transport operations analytics prototype to demonstrate an end-to-end data workflow. I modelled route, stop, trip, passenger and incident data; used Python to validate and transform the source files; used SQL to analyse service reliability, delays and passenger demand; and designed a Power BI report to communicate operational patterns. The data is simulated, so I am transparent about the assumptions and focus on demonstrating the analytical approach."
