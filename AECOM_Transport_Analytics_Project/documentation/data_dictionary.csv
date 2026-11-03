@@ -1,0 +1,13 @@
+table,field,meaning,notes
+routes,route_id,Unique route key,Primary key
+routes,route_code,Short route identifier,Unique
+stops,stop_id,Unique stop record,Primary key
+stops,latitude/longitude,Approximate simulated coordinates,Map demonstration
+trips,trip_id,Unique scheduled journey,Primary key
+trips,scheduled_departure,Scheduled departure timestamp,
+trips,actual_arrival,Simulated actual arrival timestamp,Blank for cancelled trips
+trips,service_status,Operated or Cancelled,
+trips,scheduled_duration_minutes,Planned journey duration,
+passenger_counts,passenger_count,Simulated passengers per operated trip,
+incidents,incident_type,Simulated disruption category,
+incidents,duration_minutes,Simulated incident duration,

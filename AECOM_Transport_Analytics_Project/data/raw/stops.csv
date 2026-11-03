@@ -1,0 +1,46 @@
+stop_id,route_id,stop_name,stop_sequence,latitude,longitude
+1,1,Blanchardstown Centre,1,53.39,-6.375
+2,1,Castleknock,2,53.374,-6.365
+3,1,Navan Road,3,53.365,-6.33
+4,1,Cabra,4,53.36,-6.29
+5,1,Phibsborough,5,53.36,-6.273
+6,1,O'Connell Street,6,53.349,-6.26
+7,2,Tallaght,1,53.287,-6.373
+8,2,Templeogue,2,53.3,-6.29
+9,2,Rathmines,3,53.32,-6.265
+10,2,Camden Street,4,53.336,-6.267
+11,2,College Green,5,53.344,-6.259
+12,3,Clondalkin,1,53.321,-6.397
+13,3,Newlands Cross,2,53.321,-6.385
+14,3,Crumlin,3,53.326,-6.314
+15,3,Dolphins Barn,4,53.333,-6.293
+16,3,Grand Canal Dock,5,53.341,-6.238
+17,3,Docklands,6,53.348,-6.235
+18,4,Finglas,1,53.389,-6.297
+19,4,Ballymun,2,53.398,-6.265
+20,4,Glasnevin,3,53.38,-6.27
+21,4,Drumcondra,4,53.37,-6.255
+22,4,University,5,53.385,-6.25
+23,5,Swords,1,53.459,-6.219
+24,5,Airside,2,53.451,-6.218
+25,5,Santry,3,53.395,-6.245
+26,5,Whitehall,4,53.382,-6.255
+27,5,Drumcondra,5,53.37,-6.255
+28,5,O'Connell Street,6,53.349,-6.26
+29,6,Lucan,1,53.357,-6.448
+30,6,Chapelizod,2,53.347,-6.35
+31,6,Ballyfermot,3,53.342,-6.357
+32,6,Kilmainham,4,53.341,-6.3
+33,6,Heuston Station,5,53.346,-6.292
+34,7,Dundrum,1,53.29,-6.245
+35,7,Milltown,2,53.309,-6.25
+36,7,Ranelagh,3,53.326,-6.255
+37,7,Leeson Street,4,53.337,-6.253
+38,7,St Stephen's Green,5,53.341,-6.259
+39,7,City Centre,6,53.349,-6.26
+40,8,Santry,1,53.395,-6.245
+41,8,Beaumont,2,53.386,-6.225
+42,8,Drumcondra,3,53.37,-6.255
+43,8,Fairview,4,53.362,-6.238
+44,8,North Wall,5,53.35,-6.237
+45,8,Docklands,6,53.348,-6.235
