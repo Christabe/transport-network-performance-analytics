@@ -1,39 +1,41 @@
-Transport Network Performance & Reliability Analytics
-Portfolio prototype | Simulated data | September 2026
+# Transport Network Performance Analysis
 
-Objective
-Demonstrate an end-to-end workflow for integrating, validating, analysing and visualising transport operations data.
+**Independent data analytics project | September 2026**
 
-All records are simulated. This is an independent portfolio project and is not affiliated with AECOM or a real transport operator.
+## About the Project
 
-Scenario
-A fictional Dublin transport operator wants to understand route reliability, journey delays, cancellations, passenger demand and service disruptions. Operational data arrives in separate CSV files.
+I developed this project to explore how transport data can be used to understand service performance and identify areas that may need attention.
 
-Dataset
-8 fictional routes
-40 route-stop records (approximate coordinates for mapping)
-2,880 scheduled trips across 30 days
-Passenger totals for operated trips
-Simulated incident records
-Tools
-Excel/CSV for source inspection; Python/pandas for ETL and validation; PostgreSQL for relational storage and SQL analysis; Power BI for reporting.
+Using a simulated dataset based on a fictional Dublin transport operator, I looked at journey delays, cancellations, passenger numbers and service incidents across different routes.
 
-Run
-From this folder: python python/etl_pipeline.py
+The data is simulated and does not represent the performance of an actual transport provider.
 
-The script checks unique identifiers and foreign-key relationships, standardises text, calculates actual duration and delay, derives an on-time flag, joins passenger totals and exports processed data.
+## What I wanted to understand
 
-SQL
-Create a database, then run sql/transport_analytics.sql to create tables and execute example analysis queries. Import the five CSV files in data/raw/ into their corresponding tables using pgAdmin.
+- Which routes experience higher journey delays?
+- How often are scheduled journeys cancelled?
+- Are there particular times when delays are more common?
+- How does passenger demand vary across routes?
+- What types of service incidents are recorded?
 
-Power BI report pages
-Network overview: scheduled/operated/cancelled journeys, cancellation rate, average delay, on-time percentage.
-Route performance: average delay and on-time percentage by route.
-Time patterns: delay by departure hour and service date.
-Passenger demand and incidents: passenger totals by route and incident count by type.
-Map: stop coordinates from stops.csv.
-Definitions
-Delay = actual journey duration minus scheduled journey duration. On time = operated journey with delay of five minutes or less. Cancellation rate = cancelled scheduled journeys divided by all scheduled journeys. Cancelled journeys are excluded from delay and punctuality averages.
+## Tools Used
 
-Limitations
-Synthetic data does not represent actual Dublin transport performance. Passenger counts are trip-level simulated totals, not stop-level observed boardings. Coordinates are approximate and included only to demonstrate mapping. The analysis identifies patterns and does not prove causation.
+- Excel – reviewing the source data.
+- Python – preparing and checking the datasets.
+- SQL / PostgreSQL – analysing transport operations data.
+- Power BI – presenting findings through dashboards.
+
+## Project Files
+
+- `data` – original and prepared datasets.
+- `python` – Python script used to prepare the data.
+- `sql` – queries used for the analysis.
+- `documentation` – data dictionary and project metrics.
+
+## Key Measures
+
+The analysis looks at average journey delay, on-time performance, cancellation rates, passenger demand and service incidents.
+
+## Note
+
+All records are simulated for learning and portfolio demonstration. The project is independent and is not affiliated with AECOM or any transport operator.
