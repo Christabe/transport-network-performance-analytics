@@ -25,7 +25,7 @@ From this folder:
 
 The script checks unique identifiers and foreign-key relationships, standardises text, calculates actual duration and delay, derives an on-time flag, joins passenger totals and exports processed data.
 
-## PostgreSQL
+## SQL
 Create a database, then run `sql/transport_analytics.sql` to create tables and execute example analysis queries. Import the five CSV files in `data/raw/` into their corresponding tables using pgAdmin.
 
 ## Power BI report pages
